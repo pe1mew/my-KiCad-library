@@ -64,7 +64,7 @@
       )
     )
     (symbol "ArduinoShield_1_1"
-      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
