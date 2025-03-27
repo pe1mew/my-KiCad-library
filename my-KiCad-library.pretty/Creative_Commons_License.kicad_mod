@@ -1,0 +1,107 @@
+(footprint "Creative_Commons_License"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "SparkFun Creative Commons License")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d0544e2-6e52-493e-a872-c864a8fd48b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSHW_Logo"
+		(at 0 6.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1457c369-d7b8-4a40-a06a-f5190cf4c3eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3aeafee4-67e6-417a-8405-3858a1605276")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0105efec-6817-4781-9c87-a9ae3106c415")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c34f8d2-f6ba-4f51-8940-8d70a4520f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+		(at 0 -1.27 0)
+		(layer "User.1")
+		(uuid "86cf94fb-d3f1-4f70-b0d8-84581b51092c")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
+		(at 0 1.27 0)
+		(layer "User.1")
+		(uuid "9efe529a-e1c9-4f55-8c86-29ea7b9d405c")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Designed by:"
+		(at 0 3.81 0)
+		(layer "User.1")
+		(uuid "c4f1baa4-1bde-41e8-a41a-fa2870da5709")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify bottom)
+		)
+	)
+	(embedded_fonts no)
+)
