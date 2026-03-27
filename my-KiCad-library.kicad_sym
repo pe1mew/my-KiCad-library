@@ -2952,16 +2952,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "SIT65HVD08P"
+			(at -2.54 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+			(at 2.286 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,15 +2999,7 @@
 					(type background)
 				)
 			)
-			(text "SIT65HVD08P"
-				(at 0.254 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin input line
+			(pin output line
 				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "RO"
