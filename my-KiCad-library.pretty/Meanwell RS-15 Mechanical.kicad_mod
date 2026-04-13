@@ -1,0 +1,238 @@
+(footprint "Meanwell RS-15 Mechanical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 31.25 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d452de5e-05a9-4555-8bba-abdd32002564")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Meanwell RS-15 Mechanical"
+		(at 31.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e22b4c0-7097-40bf-84cd-40bf3715afcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.meanwell.com/Upload/PDF/RS-15/RS-15-SPEC.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60ec8ae4-5ef2-463a-9e2f-627503e57f2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90c19cd3-114e-4f51-8aa5-e861e1ebae9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -25.25)
+		(end 62.5 25.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fc9ce4dc-54fd-4dd6-8647-14a35760a173")
+	)
+	(fp_rect
+		(start 62.5 -14.5)
+		(end 76.5 25.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "71891a27-ccb4-471d-bd71-c8c0f50a6e21")
+	)
+	(fp_circle
+		(center 14.65 0)
+		(end 16.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "17fa4ae5-fd72-4011-8eb1-9743f7118391")
+	)
+	(fp_circle
+		(center 53.75 0)
+		(end 55.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "91a27e13-7dbf-4709-9adf-2796d8a19ee4")
+	)
+	(fp_text user "+V"
+		(at 81 -9.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a815ba0-ab62-4bf4-a33d-cbebcd672b64")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "N"
+		(at 81 13.75 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b3da77f-fb78-4037-ab19-6b9b6a9df732")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "EARTH"
+		(at 80.668 6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4fea5af0-676c-470f-8a43-ea1f6591751f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "L"
+		(at 81 21.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65f56917-4dd9-4f83-a49c-1b85bdc0fca5")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-V"
+		(at 81 -1.75 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b36b66a3-c89b-44d6-bfb4-70787e3e39ab")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Adjust"
+		(at 65 -18.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b74191ec-8721-4d7e-87d2-49004affb89e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 31.25 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca8fbe0e-48a4-4579-8be9-e3e3a8326c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 68 17.75)
+		(size 6 4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e6cb346-c0f3-4a02-802d-0d9bd98d9e31")
+	)
+	(pad "2" thru_hole oval
+		(at 68 10.24)
+		(size 6 4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10825b7c-bfbf-415c-acde-8d2d3f0c0673")
+	)
+	(pad "3" thru_hole oval
+		(at 68 2.75)
+		(size 6 4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ff7e66a-1ae4-4ac0-83f2-b5640449c016")
+	)
+	(pad "4" thru_hole oval
+		(at 68 -4.75)
+		(size 6 4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16573aa7-e059-4d48-99ae-6b0a4d250f21")
+	)
+	(pad "5" thru_hole oval
+		(at 68 -12.25)
+		(size 6 4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e63d12d5-f28b-4fb9-88ec-f41d0ad3c488")
+	)
+	(embedded_fonts no)
+)

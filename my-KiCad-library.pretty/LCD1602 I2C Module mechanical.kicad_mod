@@ -1,0 +1,154 @@
+(footprint "LCD1602 I2C Module mechanical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dbc96f02-030f-471a-8542-0bbb635814b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LCD1602 I2C Module mechanical"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5bb4e3b2-656b-4d58-aac5-ef40f326f908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2aa13b8-d310-4eb4-8d89-0ddbd69ac579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32ed6f43-d998-49c9-950d-bee4fc6185c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -43.5 -16)
+		(end 43.5 16)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b0f4232-d72c-4f0a-8892-8041cd92f515")
+	)
+	(fp_rect
+		(start -43.5 -7)
+		(end -38 7)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd56250a-fb43-4f90-b309-c2c1ec137784")
+	)
+	(fp_rect
+		(start -35.65 -13.4)
+		(end 35.65 13.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "139749f7-ea15-4af4-b287-59bdee172319")
+	)
+	(fp_rect
+		(start -32.25 -8)
+		(end 32.25 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a7aea29e-8cf4-4651-a9e0-1912a254b770")
+	)
+	(fp_text user "LCD1602 I2C Module mechanical"
+		(at -20 15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6297e3fb-6de8-4c2b-a18e-167648ce38dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e2a263a-3662-4fdd-9063-f70c8d45029e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -40 -12.5)
+		(size 7 7)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3c8fe2bf-6e3e-4b6c-8116-09431d918b5e")
+	)
+	(pad "" np_thru_hole circle
+		(at -40 12.5)
+		(size 7 7)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2b21d59e-b9ff-4f45-b1dc-3f568e210cfa")
+	)
+	(pad "" np_thru_hole circle
+		(at 40 -12.5)
+		(size 7 7)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d453d16c-9ac5-4615-8038-418437273d5b")
+	)
+	(pad "" np_thru_hole circle
+		(at 40 12.5)
+		(size 7 7)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1bdaae43-fdae-4a6c-ad71-b80144448585")
+	)
+	(embedded_fonts no)
+)
