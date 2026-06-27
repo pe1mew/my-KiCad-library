@@ -1,0 +1,181 @@
+(footprint "DB207"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "<b>Single Phase 1.0 AMP Glass Passivated Bridge Rectifier</b><p>Taiwan Semiconductor Co.,Ltd. - TSC<br>Source: http://www.taiwansemi.com/TSCbig5/ezcatfiles/cust/img/img/db101g.pdf")
+	(property "Reference" "REF**"
+		(at -5.334 -1.27 180)
+		(layer "F.SilkS")
+		(uuid "5e2762a1-c440-4c58-9f62-6a3f3ae33ad0")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DB207"
+		(at 10.16 -0.254 0)
+		(layer "F.Fab")
+		(uuid "2c520f59-f769-4161-9e8a-0394439eb45e")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b19f358-a8cc-41e4-a51c-91c249089d54")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2469a3ba-f1cf-4772-8603-dc5ae6539346")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.05 -3.1)
+		(end 4.05 -3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d349f68d-3305-4d70-9012-7099178ca217")
+	)
+	(fp_line
+		(start -4.05 3.1)
+		(end -4.05 -3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc6dd0b9-7372-47c2-a187-91070d8c5cb3")
+	)
+	(fp_line
+		(start 4.05 -3.1)
+		(end 4.05 3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b20391cc-36fd-4fe7-a64b-e4bc0954d2ae")
+	)
+	(fp_line
+		(start 4.05 3.1)
+		(end -4.05 3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82610159-bdb3-4b7a-bcfc-373140becafa")
+	)
+	(fp_circle
+		(center -2.54 1.778)
+		(end -2.082097 1.778)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "becaa2fc-96d2-44dc-84c9-acb8405b04a8")
+	)
+	(fp_poly
+		(pts
+			(xy -3.2 3.2) (xy -1.9 3.2) (xy -1.9 5.1) (xy -3.2 5.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7bd65fdf-7a6c-49ee-82ad-cb8ee96e0e2c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 -3.2) (xy -3.2 -3.2) (xy -3.2 -5.1) (xy -1.9 -5.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "49457c93-5ee1-4b7d-8686-905f0aceb212")
+	)
+	(fp_poly
+		(pts
+			(xy 1.9 3.2) (xy 3.2 3.2) (xy 3.2 5.1) (xy 1.9 5.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8a3d72dd-f267-4079-8f98-7643bbd83612")
+	)
+	(fp_poly
+		(pts
+			(xy 3.2 -3.2) (xy 1.9 -3.2) (xy 1.9 -5.1) (xy 3.2 -5.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "824c95e6-bd97-48fa-8f8a-2c3ee72d6090")
+	)
+	(pad "+" smd rect
+		(at -2.55 4.5)
+		(size 1.7 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1ee90552-3fe1-439f-9507-0822a3325de4")
+	)
+	(pad "-" smd rect
+		(at 2.55 4.5)
+		(size 1.7 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2d62675b-1fa0-46a5-9e69-0e8d54910334")
+	)
+	(pad "AC1" smd rect
+		(at -2.55 -4.5)
+		(size 1.7 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8fa1f697-9913-4515-a04c-ad1a5c28aac8")
+	)
+	(pad "AC2" smd rect
+		(at 2.55 -4.5)
+		(size 1.7 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e234bd19-c57e-48f5-b3d6-763a1da97f7b")
+	)
+	(embedded_fonts no)
+)
